@@ -1,42 +1,39 @@
-# Computational Geometry Consultancy
+# Computational Geometry & Independent Research Consultancy
 
-Static website for independent scientific and computational geometry consultancy by Salah-Eddin Gherbi.
+Static GitHub Pages site for the independent mathematical and scientific consultancy of Salah-Eddin Gherbi.
 
-**Status:** deployment-ready draft, awaiting review. No live site or GitHub repository has been created by this package.
+**Live site:** https://salahealer9.github.io/computational-geometry-consultancy/  
+**Repository:** https://github.com/salahealer9/computational-geometry-consultancy  
+**Contact:** [salahealer@gmail.com](mailto:salahealer@gmail.com)  
+**LinkedIn:** https://www.linkedin.com/in/salah-eddin-gherbi-756669201/
 
-## Start locally
+## Scope
+
+The site introduces three complementary service areas:
+
+1. **Computational geometry and mathematical modelling** for artists, designers, architects, engineers and specialist fabricators.
+2. **Independent scientific research and verification** for researchers seeking rigorous, reproducible investigation of well-defined claims, including unconventional or interdisciplinary hypotheses.
+3. **Scientific computing and custom research tools**, including Python workflows, numerical analysis, documented algorithms and interactive visualisation.
+
+An investigation does not promise confirmation of a predetermined conclusion. A mathematical relationship does not by itself establish a metaphysical interpretation. Some propositions may not be empirically testable. The site does **not** offer structural engineering certification, construction safety approval or evidence of previous client commissions.
+
+## Local preview
 
 ```bash
 python3 -m http.server 8000
-# http://localhost:8000
+# visit http://localhost:8000/
 ```
 
-The site itself needs no build system, runtime dependencies, tracking or external JavaScript. All illustration assets are included locally. The only outbound links are to the author's public research material and the contact email link.
+No build step, external fonts, runtime dependencies, third-party tracking or JavaScript libraries are required. Illustrations are stored in `assets/`.
 
-## Publish on GitHub Pages
+## Publication
 
-1. Create a **new public, empty** GitHub repository named `computational-geometry-consultancy` on the `salahealer9` account. (Do not initialise with an automatic README if using command-line pushing.)
-2. Clone that repository locally, copy all files from this package into its root, preserving `assets/` and `.nojekyll`, and commit/push to `main`.
-3. In the repository, open **Settings → Pages → Build and deployment**. Set **Source: Deploy from a branch**, **Branch: main**, **Folder: /(root)**, then save.
-4. The anticipated URL is `https://salahealer9.github.io/computational-geometry-consultancy/` **only once GitHub Pages successfully publishes it**.
-5. Check the deployed images and mailto link from both mobile and desktop before using it in outreach.
+The public site is served using GitHub Pages from `main` at the repository root. Changes should be reviewed locally, committed with GPG signing and pushed to `origin/main`.
 
-Alternatively, once the empty repository exists and is available to the connected GitHub app, its files can be uploaded directly through the connector.
+## Research demonstrations
 
-## Scope and permissions
-
-The site is a commercial introduction, **not a structural engineering service or prior-client project gallery**. Some examples are published research artifacts or new static projections of previously certified research data.
-
-No private repository source code or unreleased datasets are included here. For figure provenance and exact distinctions between figures and certified roots, see [SOURCES.md](SOURCES.md).
-
-Contact: [salahealer@gmail.com](mailto:salahealer@gmail.com)
-
-## Live interactive research examples
-
-The website now links to the author's independently hosted GitHub Pages viewers:
-
-- Plane Sri Yantra certified atlas: https://salahealer9.github.io/sri-yantra-constraint-viewer/
+- Planar Sri Yantra certified atlas: https://salahealer9.github.io/sri-yantra-constraint-viewer/
 - Spherical Sri Yantra certified atlas: https://salahealer9.github.io/sri-yantra-spherical-viewer/
 - E8 globe interactive research viewer: https://salahealer9.github.io/e8-globe-viewer/
 
-These external viewers are separate projects. The website includes links, not copies of their code or data.
+These public interactive viewers are separate research projects, not copies hosted in this repository. No private source code or unreleased data is included. For source provenance and the precise scope of each illustration, see [SOURCES.md](SOURCES.md).
